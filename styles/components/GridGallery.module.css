@@ -1,0 +1,16 @@
+.thumbnail {
+    width: 250px;
+    height: 250px;
+}
+
+@media (min-width: 640px) {
+    .ReactGridGallery {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    .thumbnail {
+        width: 250px;
+        height: 250px;
+    }
+}

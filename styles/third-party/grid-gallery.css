@@ -1,0 +1,15 @@
+.ReactGridGallery_tile {
+    background: transparent !important;
+}
+
+.ReactGridGallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) {
+    .ReactGridGallery {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+    }
+}

@@ -1,0 +1,192 @@
+@import "~aos/dist/aos.css";
+@import "~antd/dist/antd.min.css";
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import "styles/third-party/slick.css";
+@import "styles/third-party/grid-gallery.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Viceroy';
+    /*src: url('public/fonts/ViceroyJF.ttf');*/
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+/* Utils class */
+.bg-red {
+    background: #b30a0c !important;
+}
+
+.bg-deep-blue {
+    background: linear-gradient(331.49deg, #01030b -19.36%, #092040 87.03%), #ebedf1 !important;
+}
+
+.text-deep-blue {
+    color: #3a537e !important;
+}
+
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-lobster {
+    font-family: "Lobster", sans-serif;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.font-roboto-thin {
+    font-family: "Roboto Thin", sans-serif;
+}
+
+.font-viceroy {
+    font-family: Viceroy, sans-serif;
+}
+
+.robo_head {
+    font-size: 1.5em;
+}
+
+.section-head {
+    font-size: 1.5em;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.dashed {
+    width: 121px;
+    height: 8px;
+    left: 0;
+    top: 0;
+
+    background: #CFDAEF;
+    border-radius: 23px;
+}
+
+/* Utils class */
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ant-menu-item:hover {
+    background-color: #001529 !important;
+    text-decoration: underline;
+}
+
+.ant-menu-item-selected {
+    background-color: #001529 !important;
+    text-decoration: underline;
+}
+
+.ant-comment-content-author-name {
+    width: 100%;
+}
+
+.ant-avatar img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+}
+
+#social-links .anticon svg {
+    border-radius: 10px
+}
+
+.ant-modal-header {
+    background: #111111;
+    border: 2px solid #fff;
+    border-bottom: none;
+}
+
+.ant-modal-header h1 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+.intro_sub_head {
+    max-width: 400px;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+@media (min-width: 640px) {
+    .ant-avatar img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .robo_head {
+        font-size: 2.4em;
+    }
+
+    .section-head {
+        font-size: 3em;
+    }
+
+    .intro_sub_head {
+        font-size: 1.75em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .robo_head {
+        font-size: 2.8em;
+    }
+
+    .section-head {
+        font-size: 4em;
+    }
+
+    .intro_sub_head {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 411px) {
+    .robo_head {
+        font-size: 1.68em;
+    }
+}
+
+@media (min-width: 1360px) {
+    .robo_head {
+        font-size: 3.2em;
+    }
+}

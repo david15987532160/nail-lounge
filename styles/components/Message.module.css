@@ -1,0 +1,56 @@
+.text-shadow {
+    text-shadow: 1px 1px #333;
+}
+
+.model {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    max-width: 150px;
+    max-height: 360px;
+}
+
+.icon-sms-svg {
+    width: 25px;
+}
+
+.icon-sms-svg path {
+    fill: #111;
+}
+
+.sms-wrap {
+    min-height: 200px;
+}
+
+.sms-wrap a {
+    width: 50px;
+    height: 50px;
+    font-size: 2.68em;
+}
+
+@media (min-width: 640px) {
+    .model {
+        max-width: 100%;
+        width: auto;
+    }
+
+    .icon-sms-svg {
+        width: 45px;
+    }
+
+    .icon-sms-svg path {
+        fill: #fff;
+    }
+
+    .sms-wrap {
+        min-height: 360px;
+        /*background: url('public/images/bg-sms.png') no-repeat center;*/
+        background-size: cover;
+    }
+
+    .sms-wrap a {
+        width: 80px;
+        height: 80px;
+    }
+}
