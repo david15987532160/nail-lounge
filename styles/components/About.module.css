@@ -1,0 +1,27 @@
+.dot {
+    width: 14px;
+    height: 14px;
+    background-color: #111;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fs-ch-2 {
+    font-size: 2ch;
+}
+
+.flex-item {
+    padding: 10px
+}
+
+.bg-img-section-1 {
+    background: url("public/images/section-1/bg-dark.svg") no-repeat right,
+    url("public/images/section-1/bg-light.svg") no-repeat 150%;
+    background-size: contain;
+}
+
+@media (min-width: 640px) {
+    .flex-item {
+        flex: 0 0 50%;
+    }
+}

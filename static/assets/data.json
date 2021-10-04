@@ -1,0 +1,163 @@
+{
+  "--------------------------------------NAV_BAR-------------------------------": "NAVBAR",
+  "NAV_BAR_ITEMS": [
+    "Home",
+    "Blog",
+    "Services",
+    "Contacts"
+  ],
+
+  "--------------------------------------SERVICES-------------------------------": "SERVICES",
+  "SERVICES": [
+    {
+      "title": "Manicure",
+      "items": [
+        {
+          "name": "Manicure service ex1",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service ex2 item",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service",
+          "price": "20$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        }
+      ],
+      "img": {
+        "src": "/images/section-2/manicure.png",
+        "width": 499,
+        "height": 487
+      }
+    },
+    {
+      "title": "Pedicure",
+      "items": [
+        {
+          "name": "Manicure service ex1",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service ex2 item",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service",
+          "price": "20$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        }
+      ],
+      "img": {
+        "src": "/images/section-2/pedicure.png",
+        "width": 568,
+        "height": 787
+      }
+    }
+  ],
+
+  "--------------------------------------OTHERS-------------------------------": "OTHERS",
+  "OTHERS": [
+    {
+      "title": "Waxing",
+      "items": [
+        {
+          "name": "Manicure service ex1",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service ex2 item",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service",
+          "price": "20$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        },
+        {
+          "name": "Manicure service ex6",
+          "price": "50$"
+        }
+      ]
+    },
+    {
+      "title": "Dipping Powder",
+      "items": [
+        {
+          "name": "Manicure service ex1",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service ex2 item",
+          "price": "40$"
+        },
+        {
+          "name": "Manicure service",
+          "price": "20$"
+        }
+      ]
+    },
+    {
+      "title": "For kid",
+      "items": [
+        {
+          "name": "Manicure service ex1",
+          "price": "40$"
+        }
+      ]
+    }
+  ],
+
+  "--------------------------------------COMBOS-------------------------------": "COMBOS",
+  "COMBOS": [
+    "Manicure service ex1 Manicure service ex1125$",
+    "Manicure service ex1 Manicure service e  Manicure service ex1105$",
+    "Manicure service ex1 Manicure service ex ce exce ex150$",
+    "Manicure service ex1 Manicure service e  Manicure service ex1125$",
+    "Manicure service ex1 Manicure service e  Manicure service ex1125$",
+    "Manicure service ex1 Manicure service e  Manicure service ex1125$",
+    "Manicure service ex1 Manicure service ex1125$"
+  ]
+}

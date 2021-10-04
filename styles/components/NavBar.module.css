@@ -1,0 +1,23 @@
+.text-red {
+    color: rgba(220, 38, 38, 1) !important;
+}
+
+.text-2xl-imp {
+    font-size: 1.5rem !important;
+}
+
+.logoImg {
+    width: 45px;
+    height: 45px;
+}
+
+.logo {
+    margin: 10px 24px 16px 0;
+}
+
+@media (min-width: 640px) {
+    .logo {
+        float: left;
+        width: 120px;
+    }
+}
