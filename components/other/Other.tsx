@@ -10,7 +10,7 @@ export const Other = (props: any) => {
 
     const item = data.map((ele, i) => {
         const services = ele.items.map((service, idx) => {
-            return <li key={ idx + 1 } className="flex justify-between sm:mb-8 sm:ml-6 text-deep-blue font-light">
+            return <li key={ idx + 1 } className="flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light">
                 <span>{ service.name }</span>
                 <span>{ service.price }</span>
             </li>
@@ -18,7 +18,7 @@ export const Other = (props: any) => {
 
         return <div
             key={ i + 1 }
-            className="w-10/12 mx-auto text-2xl"
+            className="w-11/12 sm:w-10/12 mx-auto mb-10 text-lg sm:text-2xl"
             data-aos={ i % 2 === 0 ? 'fade-right' : 'fade-left' }
             data-aos-once={ true }
         >

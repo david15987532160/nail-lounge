@@ -19,8 +19,8 @@ export const NavBar = (props: any) => {
         </li>;
     });
 
-    return <div className="absolute top-6 right-44">
-        <ul className="flex justify-center gap-20 text-white bg-transparent">
+    return <div className="sm:absolute sm:top-6 sm:right-44">
+        <ul className="flex justify-center py-4 gap-6 sm:gap-20 text-deep-blue sm:text-white sm:bg-transparent">
             { item }
         </ul>
     </div>

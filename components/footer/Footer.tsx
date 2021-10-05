@@ -26,13 +26,13 @@ export const Footer = (props: any) => {
         <div className="vnp-bg-primary text-white pt-6 pb-6">
             <div className="container">
                 <div className="sm:flex justify-between">
-                    <div className="flex items-center gap-10">
+                    <div className="sm:flex items-center gap-10">
                         {/*App Logo*/ }
                         <img
                             width="214"
                             src="/images/nail-lounge-logo.svg"
                             alt="Nails Kute Logo"
-                            className="mb-6"
+                            className="mx-auto mb-6"
                         />
 
                         {/*Business Info*/ }

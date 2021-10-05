@@ -84,11 +84,10 @@ a {
 }
 
 .dashed {
-    width: 121px;
+    width: 80px;
     height: 8px;
     left: 0;
     top: 0;
-
     background: #CFDAEF;
     border-radius: 23px;
 }
@@ -148,6 +147,10 @@ a {
     .ant-avatar img {
         width: 80px;
         height: 80px;
+    }
+
+    .dashed {
+        width: 121px;
     }
 }
 

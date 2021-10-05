@@ -8,7 +8,7 @@ export const About = (props: any) => {
 
     return <section id="home" className={ `py-5 sm:py-8 lg:py-20 ${ styles['bg-img-section-1'] }` }>
         <div className="container">
-            <div className="sm:flex items-center justify-between sm:mt-14">
+            <div className="flex flex-col gap-4 sm:flex-row sm:gap-0 items-center justify-between sm:mt-14">
                 {/*Description*/ }
                 <div
                     className={ `${ styles['flex-item'] }` }
@@ -27,7 +27,7 @@ export const About = (props: any) => {
                         { content }
                     </p>
 
-                    <ul className="sm:mb-14">
+                    <ul className="mb-14">
                         <li className="mb-6">
                             <span className={ `${ styles.dot } mr-3` }/> Fusce luctus blandit nisi
                         </li>
@@ -36,9 +36,8 @@ export const About = (props: any) => {
                         </li>
                     </ul>
 
-                    <a
-                        href=""
-                        className="py-5 px-14 text-lg text-white border rounded-3xl bg-deep-blue"
+                    <a href=""
+                       className="py-3 px-10 sm:py-5 sm:px-14 text-lg text-white border rounded-full bg-deep-blue"
                     >
                         GET STARTED
                     </a>
