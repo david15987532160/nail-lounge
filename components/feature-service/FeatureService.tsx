@@ -10,20 +10,20 @@ export const FeatureService = (props: any) => {
 
     const categories = data.map(({ items, title, img }, i) => {
         const services = items.map((service, idx) => {
-            return <li key={ idx + 1 } className="flex justify-between sm:mb-8 sm:ml-6 text-deep-blue font-light">
+            return <li key={ idx + 1 } className="flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light">
                 <span>{ service.name }</span>
                 <span>{ service.price }</span>
             </li>
         });
-        const reverse = i % 2 === 0 ? '' : 'flex-row-reverse';
+        const reverse = i % 2 === 0 ? '' : 'sm:flex-row-reverse';
 
         return <div
             key={ i + 1 }
-            className={ `flex ${ reverse } justify-between items-center sm:mb-24` }
+            className={ `flex flex-col-reverse sm:flex-row ${ reverse } justify-between items-center mb-10 sm:mb-24` }
             data-aos={ i % 2 === 0 ? 'fade-right' : 'fade-left' }
             data-aos-once={ true }
         >
-            <div key={ i + 1 } className="w-2/5 text-2xl">
+            <div key={ i + 1 } className="w-11/12 sm:w-2/5 text-lg sm:text-2xl">
                 <Divider orientation="left">
                     <span className="text-4xl text-deep-blue font-poppins">
                         { title }
