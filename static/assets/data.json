@@ -1,12 +1,19 @@
 {
   "--------------------------------------NAV_BAR-------------------------------": "NAVBAR",
-  "NAV_BAR_ITEMS": [
-    "Home",
-    "Blog",
-    "Services",
-    "Contacts"
-  ],
-
+  "NAV_BAR_ITEMS": {
+    "en": [
+        "Home",
+        "Blog",
+        "Services",
+        "Contacts"
+    ],
+    "vi": [
+      "Trang chủ",
+      "Bài viết",
+      "Dịch vụ",
+      "Liên hệ"
+    ]
+  },
   "--------------------------------------SERVICES-------------------------------": "SERVICES",
   "SERVICES": [
     {
