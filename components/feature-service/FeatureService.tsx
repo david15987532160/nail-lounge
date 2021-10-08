@@ -19,7 +19,7 @@ export const FeatureService = (props: any) => {
 
         return <div
             key={ i + 1 }
-            className={ `flex flex-col-reverse sm:flex-row ${ reverse } justify-between items-center mb-10 sm:mb-24` }
+            className={ `flex flex-col sm:flex-row ${ reverse } justify-between items-center mb-12 sm:mb-24` }
             data-aos={ i % 2 === 0 ? 'fade-right' : 'fade-left' }
             data-aos-once={ true }
         >
@@ -30,7 +30,7 @@ export const FeatureService = (props: any) => {
                     </span>
                 </Divider>
 
-                <ul className="sm:mt-12 sm:ml-2">
+                <ul className="mb-6 sm:mt-12 sm:ml-2">
                     { services }
                 </ul>
             </div>

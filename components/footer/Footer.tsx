@@ -33,6 +33,8 @@ export const Footer = (props: any) => {
                             src="/images/nail-lounge-logo.svg"
                             alt="Nails Kute Logo"
                             className="mx-auto mb-6"
+                            data-aos="zoom-in"
+                            data-aos-once={ true }
                         />
 
                         {/*Business Info*/ }
