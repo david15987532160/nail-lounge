@@ -4,7 +4,7 @@ import { Dashed } from 'shared';
 import Aos from 'aos';
 
 const Landing = (props: { lang?: 'en' | 'vi' }) => {
-    const { lang } = props;
+    const { lang = 'en' } = props;
 
     useEffect(() => {
         setTimeout(() => Aos.init())

@@ -2,8 +2,8 @@ import staticData from 'static/assets/data.json';
 import styles from 'styles/components/About.module.css';
 
 export const About = (props: { lang?: 'en' | 'vi' }) => {
-    const { lang } = props;
-    const { introduction, buttonText } = staticData[lang!].ABOUT;
+    const { lang = 'en' } = props;
+    const { introduction = '', buttonText = '' } = staticData[lang!].ABOUT;
 
     return <section id="home" className={ `py-5 sm:py-8 lg:py-20 ${ styles['bg-img-section-1'] }` }>
         <div className="container">

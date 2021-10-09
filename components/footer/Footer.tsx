@@ -3,7 +3,7 @@ import moment from 'moment';
 import staticData from 'static/assets/data.json';
 
 export const Footer = (props: { lang?: 'en' | 'vi' }) => {
-    const { lang } = props;
+    const { lang = 'en' } = props;
     const { businessHours, weekDays } = staticData[lang!].FOOTER;
     const today = moment().format('ddd');
     const item = weekDays.map(({ date, open, abbr }, index) => {

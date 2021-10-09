@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 
 const Home: NextPage = () => {
     const title = 'Nail Lounge and Spa';
-    const { locale, locales, defaultLocale, asPath } = useRouter();
+    const { locale = 'en', locales, defaultLocale, asPath } = useRouter();
 
     return (
         <div className="overflow-x-hidden">
