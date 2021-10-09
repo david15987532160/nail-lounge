@@ -28,8 +28,8 @@
     }
 
     .bg-img-section-1 {
-        background: url("public/images/section-1/bg-dark.svg") no-repeat 108% 28%,
-        url("public/images/section-1/bg-light.svg") no-repeat 162% 24%;
+        background: url("public/images/section-1/bg-dark.svg") no-repeat right,
+        url("public/images/section-1/bg-light.svg") no-repeat 140%;
         background-size: contain;
     }
 }
