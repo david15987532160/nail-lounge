@@ -4,11 +4,11 @@ import { Divider } from 'antd';
 import staticData from 'static/assets/data.json';
 import styles from 'styles/components/Other.module.css';
 
-export const Other = (props: any) => {
-    const title = 'OTHERS';
-    const data: IItem[] = staticData.OTHERS;
+export const Other = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang = 'en' } = props;
+    const { title, data } = staticData[lang!].OTHERS;
 
-    const item = data.map((ele, i) => {
+    const item = (data as IItem[]).map((ele, i) => {
         const services = ele.items.map((service, idx) => {
             return <li key={ idx + 1 } className="flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light">
                 <span>{ service.name }</span>

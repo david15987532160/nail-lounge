@@ -2,9 +2,11 @@ import React from 'react';
 import Head from 'next/head';
 import Landing from './landing';
 import type { NextPage } from 'next';
+import { useRouter } from 'next/router';
 
 const Home: NextPage = () => {
-    const title = 'Nails Kute & Spa of Fleming Island FL 32003 - Best Nail Salon Near Me';
+    const title = 'Nail Lounge and Spa';
+    const { locale, locales, defaultLocale, asPath } = useRouter();
 
     return (
         <div className="overflow-x-hidden">
@@ -13,7 +15,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <Landing/>
+            <Landing lang={ locale as 'en' | 'vi' }/>
         </div>
     );
 }

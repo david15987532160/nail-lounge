@@ -5,9 +5,10 @@ import { MenuFoldOutlined } from '@ant-design/icons';
 import staticData from 'static/assets/data.json';
 import { Dropdown, Menu } from 'antd';
 
-export const NavBar = (props: any) => {
-    const { locale, locales, defaultLocale, asPath } = useRouter();
-    const navItems: string[] = staticData.NAV_BAR_ITEMS[locale as ('en' | 'vi')];
+export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang = 'en' } = props;
+    const { asPath } = useRouter();
+    const navItems: string[] = staticData[lang!].NAV_BAR_ITEMS;
 
     const item = navItems.map((item, i) => {
         const href = `#${ item.toLowerCase() }`;
@@ -47,11 +48,12 @@ export const NavBar = (props: any) => {
         </div>
 
         {/*Web*/ }
-        <div className="hidden sm:block sm:fixed sm:top-6 sm:right-36">
+        <div className="hidden sm:block sm:absolute sm:top-6 sm:right-44">
             <ul className="flex justify-center py-4 gap-6 sm:gap-16 text-deep-blue sm:text-white sm:bg-transparent">
                 { item }
             </ul>
 
+            {/*Lang switch*/}
             {/*<div className="flex items-center gap-4 text-white">*/}
             {/*    <div*/}
             {/*        style={ {*/}
@@ -68,7 +70,7 @@ export const NavBar = (props: any) => {
             {/*                padding: '2px',*/}
             {/*            } }*/}
             {/*        >*/}
-            {/*  { locale }*/}
+            {/*  { lang }*/}
             {/*</span>*/}
             {/*    </div>*/}
 

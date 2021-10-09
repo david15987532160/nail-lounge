@@ -1,16 +1,10 @@
 import Image from 'next/image';
 import moment from 'moment';
+import staticData from 'static/assets/data.json';
 
-export const Footer = (props: any) => {
-    const weekDays = [
-        { date: 'Monday', open: 'Closed', abbr: 'Mon' },
-        { date: 'Tuesday', open: '09:30 - 19:30', abbr: 'Tue' },
-        { date: 'Wednesday', open: '09:30 - 19:30', abbr: 'Wed' },
-        { date: 'Thursday', open: '09:30 - 19:30', abbr: 'Thu' },
-        { date: 'Friday', open: '09:30 - 19:30', abbr: 'Fri' },
-        { date: 'Saturday', open: '09:30 - 19:30', abbr: 'Sat' },
-        { date: 'Sunday', open: '12:00 - 18:00', abbr: 'Sun' },
-    ];
+export const Footer = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang } = props;
+    const { businessHours, weekDays } = staticData[lang!].FOOTER;
     const today = moment().format('ddd');
     const item = weekDays.map(({ date, open, abbr }, index) => {
         return <div
@@ -136,7 +130,7 @@ export const Footer = (props: any) => {
                         data-aos-once={ true }
                     >
                         <h5 className="flex items-end gap-3 text-white text-2xl font-medium mb-5">
-                            <span>Business Hours</span>
+                            <span>{ businessHours }</span>
                         </h5>
 
                         { item }

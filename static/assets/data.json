@@ -1,170 +1,387 @@
 {
-  "--------------------------------------NAV_BAR-------------------------------": "NAVBAR",
-  "NAV_BAR_ITEMS": {
-    "en": [
-        "Home",
-        "Blog",
-        "Services",
-        "Contacts"
+  "en": {
+    "--------------------------------------NAV_BAR-------------------------------": "NAVBAR",
+    "NAV_BAR_ITEMS": [
+      "Home",
+      "Blog",
+      "Services",
+      "Contacts"
     ],
-    "vi": [
+
+    "--------------------------------------ABOUT-------------------------------": "ABOUT",
+    "ABOUT": {
+      "introduction": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed d iam nonummy nibh euismod tincidunt lorem ipsum dolor sit amet, consectetuer.",
+      "buttonText": "GET STARTED"
+    },
+
+    "--------------------------------------SERVICES-------------------------------": "SERVICES",
+    "SERVICES": {
+      "title": "OUR SERVICES",
+      "data": [
+        {
+          "title": "Manicure",
+          "items": [
+            {
+              "name": "ACRYLIC FULL SET W/ FAKE TIPS & POLISH (45 MINS.)",
+              "price": "35$"
+            },
+            {
+              "name": "FRENCH SHELLAC GEL W/ MANICURE (45 MINS.)",
+              "price": "41$"
+            },
+            {
+              "name": "SHELLAC GEL W/ MANICURE (45 MINS.)",
+              "price": "36$"
+            },
+            {
+              "name": "SOLAR PINK & WHITE FILL (1 HR.)",
+              "price": "40$"
+            },
+            {
+              "name": "SOLAR FULL SET (1 HR.+)",
+              "price": "47$"
+            }
+          ],
+          "img": {
+            "src": "/images/section-2/manicure.png",
+            "width": 499,
+            "height": 487
+          }
+        },
+        {
+          "title": "Pedicure",
+          "items": [
+            {
+              "name": "FRESH ALOE VERA PEDICURE (1 HR. & 30 MINS.)",
+              "price": "78$"
+            },
+            {
+              "name": "ORGANIC CHARCOAL SPA DETOX PEDICURE (1 HR. & 15 MINS.)",
+              "price": "68$"
+            },
+            {
+              "name": "ORGANIC HERBAL ASIAN SPICES PEDICURE (1 HR. & 15 MINS.)",
+              "price": "63$"
+            },
+            {
+              "name": "HAWAIIAN RITUAL PEDICURE (1 HR.+)",
+              "price": "58$"
+            },
+            {
+              "name": "ORGANIC MILK & HONEY PEDICURE (1 HR.+)",
+              "price": "53$"
+            },
+            {
+              "name": "MALIBU CUCUMBER PEDICURE (1 HR.+)",
+              "price": "53$"
+            },
+            {
+              "name": "ROYAL VERBENA PEDICURE (45 MINS.+)",
+              "price": "48$"
+            },
+            {
+              "name": "HYDRATING HEEL PEDICURE (45 MINS.+)",
+              "price": "48$"
+            },
+            {
+              "name": "MANDARIN HONEY PEDICURE (45 MINS.)",
+              "price": "38$"
+            },
+            {
+              "name": "EUCALYPTUS MINT PEDICIURE (45 MINS.)",
+              "price": "38$"
+            },
+            {
+              "name": "EXPRESS PEDICURE (30 MINS.)",
+              "price": "28$"
+            }
+          ],
+          "img": {
+            "src": "/images/section-2/pedicure.png",
+            "width": 568,
+            "height": 787
+          }
+        }
+      ]
+    },
+
+    "--------------------------------------OTHERS-------------------------------": "OTHERS",
+    "OTHERS": {
+      "title": "OTHERS",
+      "data": [
+        {
+          "title": "Waxing",
+          "items": [
+            {
+              "name": "BACK WAXING (30 MINS.)",
+              "price": "55$"
+            },
+            {
+              "name": "FULL LEGS WAXING (30 MINS.)",
+              "price": "55$"
+            },
+            {
+              "name": "FACE WAXING (30 MINS!)",
+              "price": "37$"
+            },
+            {
+              "name": "ARMPIT WAXING (15 MINS.)",
+              "price": "22$"
+            },
+            {
+              "name": "BRAZILIAN WAXING (30 MINS.)",
+              "price": "68$"
+            },
+            {
+              "name": "EYEBROWS WAXING (15 MINS.)",
+              "price": "10$"
+            }
+          ]
+        },
+        {
+          "title": "Dipping Powder",
+          "items": [
+            {
+              "name": "DIPPING POWDER (1 HR.)",
+              "price": "41$"
+            },
+            {
+              "name": "(COLOR DIPPING POWDER FOR FRENCH ADD $5 FOR OMBRE ADD $15)",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "title": "For kid",
+          "items": [
+            {
+              "name": "KID MANICURE & PEDICURE (45 MINS.)",
+              "price": "32$"
+            }
+          ]
+        }
+      ]
+    },
+
+    "--------------------------------------COMBOS-------------------------------": "COMBOS",
+    "COMBOS": {
+      "title": "COMBO",
+      "data": [
+        "COMBO 1. (EUCALYPTUS MINT PEDICURE & DIPPING POWDER) $80",
+        "COMBO 2. (HYDRATION PEDICURE & DIPPING POWDER) $90",
+        "COMBO 3. (MILK & HONEY PEDICURE & DIPPING POWDER) $95",
+        "COMBO 4. (ALOE VERA PEDICURE & DIPPING POWDER) $120",
+        "COMBO 5. (MANDARIN PEDICURE & GEL MANICURE) $74",
+        "COMBO 6. (HAWAIIAN RITUAL PEDICURE & GEL MANICURE) $94",
+        "COMBO 7. (CHARCOAL DETOX PEDICURE & GEL MANICURE) $104"
+      ]
+    },
+
+    "--------------------------------------FOOTER-------------------------------": "FOOTER",
+    "FOOTER": {
+      "businessHours": "Business Hours",
+      "weekDays": [
+        { "date": "Monday", "open": "Closed", "abbr": "Mon" },
+        { "date": "Tuesday", "open": "09:30 - 19:30", "abbr": "Tue" },
+        { "date": "Wednesday", "open": "09:30 - 19:30", "abbr": "Wed" },
+        { "date": "Thursday", "open": "09:30 - 19:30", "abbr": "Thu" },
+        { "date": "Friday", "open": "09:30 - 19:30", "abbr": "Fri" },
+        { "date": "Saturday", "open": "09:30 - 19:30", "abbr": "Sat" },
+        { "date": "Sunday", "open": "12:00 - 18:00", "abbr": "Sun" }
+      ]
+    }
+  },
+
+  "vi": {
+    "--------------------------------------NAV_BAR-------------------------------": "NAVBAR",
+    "NAV_BAR_ITEMS": [
       "Trang chủ",
       "Bài viết",
       "Dịch vụ",
       "Liên hệ"
-    ]
-  },
-  "--------------------------------------SERVICES-------------------------------": "SERVICES",
-  "SERVICES": [
-    {
-      "title": "Manicure",
-      "items": [
-        {
-          "name": "Manicure service ex1",
-          "price": "40$"
-        },
-        {
-          "name": "Manicure service ex2 item",
-          "price": "40$"
-        },
-        {
-          "name": "Manicure service",
-          "price": "20$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        }
-      ],
-      "img": {
-        "src": "/images/section-2/manicure.png",
-        "width": 499,
-        "height": 487
-      }
-    },
-    {
-      "title": "Pedicure",
-      "items": [
-        {
-          "name": "Manicure service ex1",
-          "price": "40$"
-        },
-        {
-          "name": "Manicure service ex2 item",
-          "price": "40$"
-        },
-        {
-          "name": "Manicure service",
-          "price": "20$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        }
-      ],
-      "img": {
-        "src": "/images/section-2/pedicure.png",
-        "width": 568,
-        "height": 787
-      }
-    }
-  ],
+    ],
 
-  "--------------------------------------OTHERS-------------------------------": "OTHERS",
-  "OTHERS": [
-    {
-      "title": "Waxing",
-      "items": [
+    "--------------------------------------ABOUT-------------------------------": "ABOUT",
+    "ABOUT": {
+      "introduction": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed d iam nonummy nibh euismod tincidunt lorem ipsum dolor sit amet, consectetuer.",
+      "buttonText": "BẮT ĐẦU"
+    },
+
+    "--------------------------------------SERVICES-------------------------------": "SERVICES",
+    "SERVICES": {
+      "title": "DỊCH VỤ",
+      "data": [
         {
-          "name": "Manicure service ex1",
-          "price": "40$"
+          "title": "Chăm sóc tay",
+          "items": [
+            {
+              "name": "ACRYLIC FULL SET W/ FAKE TIPS & POLISH (45 MINS.)",
+              "price": "35$"
+            },
+            {
+              "name": "FRENCH SHELLAC GEL W/ MANICURE (45 MINS.)",
+              "price": "41$"
+            },
+            {
+              "name": "SHELLAC GEL W/ MANICURE (45 MINS.)",
+              "price": "36$"
+            },
+            {
+              "name": "SOLAR PINK & WHITE FILL (1 HR.)",
+              "price": "40$"
+            },
+            {
+              "name": "SOLAR FULL SET (1 HR.+)",
+              "price": "47$"
+            }
+          ],
+          "img": {
+            "src": "/images/section-2/manicure.png",
+            "width": 499,
+            "height": 487
+          }
         },
         {
-          "name": "Manicure service ex2 item",
-          "price": "40$"
-        },
-        {
-          "name": "Manicure service",
-          "price": "20$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
-        },
-        {
-          "name": "Manicure service ex6",
-          "price": "50$"
+          "title": "Chăm sóc chân",
+          "items": [
+            {
+              "name": "FRESH ALOE VERA PEDICURE (1 HR. & 30 MINS.)",
+              "price": "78$"
+            },
+            {
+              "name": "ORGANIC CHARCOAL SPA DETOX PEDICURE (1 HR. & 15 MINS.)",
+              "price": "68$"
+            },
+            {
+              "name": "ORGANIC HERBAL ASIAN SPICES PEDICURE (1 HR. & 15 MINS.)",
+              "price": "63$"
+            },
+            {
+              "name": "HAWAIIAN RITUAL PEDICURE (1 HR.+)",
+              "price": "58$"
+            },
+            {
+              "name": "ORGANIC MILK & HONEY PEDICURE (1 HR.+)",
+              "price": "53$"
+            },
+            {
+              "name": "MALIBU CUCUMBER PEDICURE (1 HR.+)",
+              "price": "53$"
+            },
+            {
+              "name": "ROYAL VERBENA PEDICURE (45 MINS.+)",
+              "price": "48$"
+            },
+            {
+              "name": "HYDRATING HEEL PEDICURE (45 MINS.+)",
+              "price": "48$"
+            },
+            {
+              "name": "MANDARIN HONEY PEDICURE (45 MINS.)",
+              "price": "38$"
+            },
+            {
+              "name": "EUCALYPTUS MINT PEDICIURE (45 MINS.)",
+              "price": "38$"
+            },
+            {
+              "name": "EXPRESS PEDICURE (30 MINS.)",
+              "price": "28$"
+            }
+          ],
+          "img": {
+            "src": "/images/section-2/pedicure.png",
+            "width": 568,
+            "height": 787
+          }
         }
       ]
     },
-    {
-      "title": "Dipping Powder",
-      "items": [
+
+    "--------------------------------------OTHERS-------------------------------": "OTHERS",
+    "OTHERS": {
+      "title": "KHÁC",
+      "data": [
         {
-          "name": "Manicure service ex1",
-          "price": "40$"
+          "title": "Tẩy lông",
+          "items": [
+            {
+              "name": "BACK WAXING (30 MINS.)",
+              "price": "55$"
+            },
+            {
+              "name": "FULL LEGS WAXING (30 MINS.)",
+              "price": "55$"
+            },
+            {
+              "name": "FACE WAXING (30 MINS!)",
+              "price": "37$"
+            },
+            {
+              "name": "ARMPIT WAXING (15 MINS.)",
+              "price": "22$"
+            },
+            {
+              "name": "BRAZILIAN WAXING (30 MINS.)",
+              "price": "68$"
+            },
+            {
+              "name": "EYEBROWS WAXING (15 MINS.)",
+              "price": "10$"
+            }
+          ]
         },
         {
-          "name": "Manicure service ex2 item",
-          "price": "40$"
+          "title": "Nhúng bột",
+          "items": [
+            {
+              "name": "DIPPING POWDER (1 HR.)",
+              "price": "41$"
+            },
+            {
+              "name": "(COLOR DIPPING POWDER FOR FRENCH ADD $5 FOR OMBRE ADD $15)",
+              "price": ""
+            }
+          ]
         },
         {
-          "name": "Manicure service",
-          "price": "20$"
+          "title": "Dành cho trẻ em",
+          "items": [
+            {
+              "name": "KID MANICURE & PEDICURE (45 MINS.)",
+              "price": "32$"
+            }
+          ]
         }
       ]
     },
-    {
-      "title": "For kid",
-      "items": [
-        {
-          "name": "Manicure service ex1",
-          "price": "40$"
-        }
+
+    "--------------------------------------COMBOS-------------------------------": "COMBOS",
+    "COMBOS":  {
+      "title": "GÓI",
+      "data": [
+        "GÓI 1. (EUCALYPTUS MINT PEDICURE & DIPPING POWDER) $80",
+        "GÓI 2. (HYDRATION PEDICURE & DIPPING POWDER) $90",
+        "GÓI 3. (MILK & HONEY PEDICURE & DIPPING POWDER) $95",
+        "GÓI 4. (ALOE VERA PEDICURE & DIPPING POWDER) $120",
+        "GÓI 5. (MANDARIN PEDICURE & GEL MANICURE) $74",
+        "GÓI 6. (HAWAIIAN RITUAL PEDICURE & GEL MANICURE) $94",
+        "GÓI 7. (CHARCOAL DETOX PEDICURE & GEL MANICURE) $104"
+      ]
+    },
+
+    "--------------------------------------FOOTER-------------------------------": "FOOTER",
+    "FOOTER": {
+      "businessHours": "Giờ làm việc",
+      "weekDays": [
+        { "date": "Thứ 2", "open": "Đóng cửa", "abbr": "Mon" },
+        { "date": "Thứ 3", "open": "09:30 - 19:30", "abbr": "Tue" },
+        { "date": "Thứ 4", "open": "09:30 - 19:30", "abbr": "Wed" },
+        { "date": "Thứ 5", "open": "09:30 - 19:30", "abbr": "Thu" },
+        { "date": "Thứ 6", "open": "09:30 - 19:30", "abbr": "Fri" },
+        { "date": "Thứ 7", "open": "09:30 - 19:30", "abbr": "Sat" },
+        { "date": "Chủ Nhật", "open": "12:00 - 18:00", "abbr": "Sun" }
       ]
     }
-  ],
-
-  "--------------------------------------COMBOS-------------------------------": "COMBOS",
-  "COMBOS": [
-    "Manicure service ex1 Manicure service ex1125$",
-    "Manicure service ex1 Manicure service e  Manicure service ex1105$",
-    "Manicure service ex1 Manicure service ex ce exce ex150$",
-    "Manicure service ex1 Manicure service e  Manicure service ex1125$",
-    "Manicure service ex1 Manicure service e  Manicure service ex1125$",
-    "Manicure service ex1 Manicure service e  Manicure service ex1125$",
-    "Manicure service ex1 Manicure service ex1125$"
-  ]
+  }
 }
