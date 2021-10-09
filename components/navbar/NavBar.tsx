@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router';
 import { MenuFoldOutlined } from '@ant-design/icons';
@@ -10,16 +9,16 @@ export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
     const { asPath } = useRouter();
     const navItems: string[] = staticData[lang!].NAV_BAR_ITEMS;
 
-    const item = navItems.map((item, i) => {
-        const href = `#${ item.toLowerCase() }`;
+    const hrefs = ['home', 'blogs', 'services', 'contacts'];
 
+    const item = navItems.map((item, i) => {
         return <li
             key={ i + 1 }
             data-aos="fade-right"
             data-aos-delay={ (navItems.length - i) * 100 }
             data-aos-once={ true }
         >
-            <a href={ href } className="font-poppins text-lg">
+            <a href={ `#${ hrefs[i] }` } className="font-poppins text-lg">
                 { item }
             </a>
         </li>;
@@ -27,9 +26,9 @@ export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
 
     const menu = (
         <Menu>
-            { navItems.map((item, index) =>
-                <Menu.Item key={ index + 1 } className="pr-16">
-                    <a href={ `#${ item.toLowerCase() }` } className="font-poppins text-lg">
+            { navItems.map((item, i) =>
+                <Menu.Item key={ i + 1 } className="pr-16">
+                    <a href={ `#${ hrefs[i] }` } className="font-poppins text-lg">
                         { item }
                     </a>
                 </Menu.Item>)
