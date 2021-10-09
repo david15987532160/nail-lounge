@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { MenuFoldOutlined } from '@ant-design/icons';
 import staticData from 'static/assets/data.json';
@@ -47,7 +48,7 @@ export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
         </div>
 
         {/*Web*/ }
-        <div className="hidden sm:block sm:absolute sm:top-6 sm:right-44">
+        <div className="hidden sm:block sm:absolute sm:top-6 sm:right-72">
             <ul className="flex justify-center py-4 gap-6 sm:gap-16 text-deep-blue sm:text-white sm:bg-transparent">
                 { item }
             </ul>
@@ -69,7 +70,7 @@ export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
             {/*                padding: '2px',*/}
             {/*            } }*/}
             {/*        >*/}
-            {/*  { lang }*/}
+            {/*  { lang === 'en' ? 'English' : 'Tiếng Việt' }*/}
             {/*</span>*/}
             {/*    </div>*/}
 
@@ -77,14 +78,14 @@ export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
             {/*        href={ asPath }*/}
             {/*        locale="en"*/}
             {/*    >*/}
-            {/*        EN*/}
+            {/*        English*/}
             {/*    </Link>*/}
 
             {/*    <Link*/}
             {/*        href={ asPath }*/}
             {/*        locale="vi"*/}
             {/*    >*/}
-            {/*        VI*/}
+            {/*        Tiếng Việt*/}
             {/*    </Link>*/}
             {/*</div>*/}
         </div>

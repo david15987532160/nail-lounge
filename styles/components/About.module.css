@@ -29,7 +29,7 @@
 
     .bg-img-section-1 {
         background: url("public/images/section-1/bg-dark.svg") no-repeat right,
-        url("public/images/section-1/bg-light.svg") no-repeat 140%;
+        url("public/images/section-1/bg-light.svg") no-repeat right;
         background-size: contain;
     }
 }
