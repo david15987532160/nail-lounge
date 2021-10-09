@@ -137,6 +137,10 @@ a {
     font-size: 1.5em;
 }
 
+.ant-modal-content {
+    border-radius: 38px;
+}
+
 .intro_sub_head {
     max-width: 400px;
     font-size: 1.5em;

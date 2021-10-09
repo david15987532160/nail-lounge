@@ -1,13 +1,13 @@
+import staticData from 'static/assets/data.json';
 import styles from 'styles/components/About.module.css';
 
-export const About = (props: any) => {
-    const content = `
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed d iam nonummy nibh euismod tincidunt lorem ipsum dolor sit amet, consectetuer.
-    `;
+export const About = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang } = props;
+    const { introduction, buttonText } = staticData[lang!].ABOUT;
 
     return <section id="home" className={ `py-5 sm:py-8 lg:py-20 ${ styles['bg-img-section-1'] }` }>
         <div className="container">
-            <div className="flex flex-col-reverse gap-4 sm:flex-row sm:gap-0 items-center justify-between sm:mt-14">
+            <div className="flex flex-col-reverse gap-4 sm:flex-row sm:gap-0 items-center justify-around sm:px-28 sm:mt-14">
                 {/*Description*/ }
                 <div
                     className={ `${ styles['flex-item'] }` }
@@ -24,7 +24,7 @@ export const About = (props: any) => {
                     />
 
                     <p className="sm:pr-24 mt-10 mb-8 text-base sm:text-2xl text-deep-blue font-light">
-                        { content }
+                        { introduction }
                     </p>
 
                     <ul className="sm:mb-14">
@@ -37,9 +37,9 @@ export const About = (props: any) => {
                     </ul>
 
                     <a href=""
-                       className="hidden py-3 px-10 sm:py-5 sm:px-14 text-lg text-white border rounded-full bg-deep-blue"
+                       className="hidden sm:inline py-3 px-10 sm:py-5 sm:px-14 text-lg text-white border rounded-full bg-deep-blue"
                     >
-                        GET STARTED
+                        { buttonText }
                     </a>
                 </div>
 
@@ -48,7 +48,7 @@ export const About = (props: any) => {
                    data-aos="zoom-out"
                    data-aos-once={ true }
                 >
-                    GET STARTED
+                    { buttonText }
                 </a>
 
                 {/*Image*/ }

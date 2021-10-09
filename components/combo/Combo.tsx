@@ -2,9 +2,9 @@ import { PageHeader } from 'shared';
 import staticData from 'static/assets/data.json';
 import styles from 'styles/components/Combo.module.css';
 
-export const Combo = (props: any) => {
-    const title = 'COMBO';
-    const data: string[] = staticData.COMBOS;
+export const Combo = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang = 'en' } = props;
+    const { title, data } = staticData[lang!].COMBOS;
 
     const item = data.map((text, index) =>
         <li

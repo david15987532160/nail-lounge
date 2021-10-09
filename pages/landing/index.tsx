@@ -3,31 +3,34 @@ import { About, Combo, FeatureService, Footer, NavBar, Other } from 'components'
 import { Dashed } from 'shared';
 import Aos from 'aos';
 
-const Landing = (props: any) => {
+const Landing = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang } = props;
+
     useEffect(() => {
         setTimeout(() => Aos.init())
     });
 
     return <>
         {/* Nav bar section */ }
-        <NavBar/>
+        <NavBar lang={ lang }/>
 
         {/* About */ }
-        <About/>
+        <About lang={ lang }/>
 
         {/* Services */ }
-        <FeatureService/>
+        <FeatureService lang={ lang }/>
 
-        <Dashed/>
+        {/* Divider */ }
+        <Dashed lang={ lang }/>
 
         {/* Other */ }
-        <Other/>
+        <Other lang={ lang }/>
 
         {/* Combo */ }
-        <Combo/>
+        <Combo lang={ lang }/>
 
         {/* Footer */ }
-        <Footer/>
+        <Footer lang={ lang }/>
     </>
 }
 

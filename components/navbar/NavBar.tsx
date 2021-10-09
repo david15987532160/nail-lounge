@@ -1,24 +1,24 @@
-import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router';
 import { MenuFoldOutlined } from '@ant-design/icons';
 import staticData from 'static/assets/data.json';
 import { Dropdown, Menu } from 'antd';
 
-export const NavBar = (props: any) => {
-    const { locale, locales, defaultLocale, asPath } = useRouter();
-    const navItems: string[] = staticData.NAV_BAR_ITEMS[locale as ('en' | 'vi')];
+export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang = 'en' } = props;
+    const { asPath } = useRouter();
+    const navItems: string[] = staticData[lang!].NAV_BAR_ITEMS;
+
+    const hrefs = ['home', 'blogs', 'services', 'contacts'];
 
     const item = navItems.map((item, i) => {
-        const href = `#${ item.toLowerCase() }`;
-
         return <li
             key={ i + 1 }
             data-aos="fade-right"
             data-aos-delay={ (navItems.length - i) * 100 }
             data-aos-once={ true }
         >
-            <a href={ href } className="font-poppins text-lg">
+            <a href={ `#${ hrefs[i] }` } className="font-poppins text-lg">
                 { item }
             </a>
         </li>;
@@ -26,9 +26,9 @@ export const NavBar = (props: any) => {
 
     const menu = (
         <Menu>
-            { navItems.map((item, index) =>
-                <Menu.Item key={ index + 1 } className="pr-16">
-                    <a href={ `#${ item.toLowerCase() }` } className="font-poppins text-lg">
+            { navItems.map((item, i) =>
+                <Menu.Item key={ i + 1 } className="pr-16">
+                    <a href={ `#${ hrefs[i] }` } className="font-poppins text-lg">
                         { item }
                     </a>
                 </Menu.Item>)
@@ -47,11 +47,12 @@ export const NavBar = (props: any) => {
         </div>
 
         {/*Web*/ }
-        <div className="hidden sm:block sm:fixed sm:top-6 sm:right-36">
+        <div className="hidden sm:block sm:absolute sm:top-6 sm:right-44">
             <ul className="flex justify-center py-4 gap-6 sm:gap-16 text-deep-blue sm:text-white sm:bg-transparent">
                 { item }
             </ul>
 
+            {/*Lang switch*/}
             {/*<div className="flex items-center gap-4 text-white">*/}
             {/*    <div*/}
             {/*        style={ {*/}
@@ -68,7 +69,7 @@ export const NavBar = (props: any) => {
             {/*                padding: '2px',*/}
             {/*            } }*/}
             {/*        >*/}
-            {/*  { locale }*/}
+            {/*  { lang }*/}
             {/*</span>*/}
             {/*    </div>*/}
 

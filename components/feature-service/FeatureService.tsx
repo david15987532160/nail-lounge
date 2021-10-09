@@ -1,25 +1,50 @@
 import Image from 'next/image';
-import { PageHeader } from 'shared';
-import { IItem } from 'types';
+import { IDetail, IItem } from 'types';
 import { Divider } from 'antd';
+import { useState } from 'react';
+import { DetailModal, PageHeader } from 'shared';
 import staticData from 'static/assets/data.json';
 
-export const FeatureService = (props: any) => {
-    const title = 'OUR SERVICES';
-    const data: IItem[] = staticData.SERVICES;
+export const FeatureService = (props: { lang?: 'en' | 'vi' }) => {
+    const { lang = 'en' } = props;
 
-    const categories = data.map(({ items, title, img }, i) => {
-        const services = items.map((service, idx) => {
-            return <li key={ idx + 1 } className="flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light">
-                <span>{ service.name }</span>
-                <span>{ service.price }</span>
+    const { title, data } = staticData[lang!].SERVICES;
+
+    const [detail, setDetail] = useState<IDetail & { price: string }>({
+        category: '',
+        name: '',
+        description: '',
+        price: ''
+    });
+
+    const [visible, setVisible] = useState(false);
+
+    const hideModal = () => setVisible(false);
+
+    const categories = (data as IItem[]).map(({ items, title, img }, i) => {
+        const services = items.map(({ name, price, details }, idx) => {
+            const showModal = () => {
+                setDetail({ ...details!, price });
+                setVisible(true);
+            };
+
+            const className = `flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light ${ details && 'cursor-pointer' }`;
+
+            return <li
+                key={ idx + 1 }
+                className={ className }
+                onClick={ details ? showModal : undefined }
+            >
+                <span>{ name }</span>
+                <span>{ price }</span>
             </li>
         });
+
         const reverse = i % 2 === 0 ? '' : 'sm:flex-row-reverse';
 
         return <div
             key={ i + 1 }
-            className={ `flex flex-col sm:flex-row ${ reverse } justify-between items-center mb-12 sm:mb-24` }
+            className={ `flex flex-col sm:flex-row ${ reverse } justify-around items-center mb-12 sm:mb-24` }
             data-aos={ i % 2 === 0 ? 'fade-right' : 'fade-left' }
             data-aos-once={ true }
         >
@@ -52,5 +77,11 @@ export const FeatureService = (props: any) => {
 
             { categories }
         </div>
+
+        <DetailModal
+            data={ detail }
+            visible={ visible }
+            hideModal={ hideModal }
+        />
     </section>
 };
