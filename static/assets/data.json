@@ -53,47 +53,102 @@
           "items": [
             {
               "name": "FRESH ALOE VERA PEDICURE (1 HR. & 30 MINS.)",
-              "price": "78$"
+              "price": "78$",
+              "details": {
+                "category": "HYDRATING & SOFTENING",
+                "name": "FRESH ALOE VERA PEDICURE",
+                "description": "Aloe vera pieces, aloe vera scrubs, and aloe vera mask with hot rock for muscle."
+              }
             },
             {
               "name": "ORGANIC CHARCOAL SPA DETOX PEDICURE (1 HR. & 15 MINS.)",
-              "price": "68$"
+              "price": "68$",
+              "details": {
+                "category": "DETOXIFYING",
+                "name": "ORGANIC CHARCOAL SPA DETOX PEDICURE",
+                "description": "Activated charcoal and charcoal mask with 30 hot stone massage."
+              }
             },
             {
               "name": "ORGANIC HERBAL ASIAN SPICES PEDICURE (1 HR. & 15 MINS.)",
-              "price": "63$"
+              "price": "63$",
+              "details": {
+                "category": "FOR STRESSED AND TIRED MUSCLE",
+                "name": "ORGANIC HERBAL ASIAN SPICE PEDICURE",
+                "description": "Jade powder with ginseng, lemongrass souffle mas, and paraffin wax."
+              }
             },
             {
               "name": "HAWAIIAN RITUAL PEDICURE (1 HR.+)",
-              "price": "58$"
+              "price": "58$",
+              "details": {
+                "category": "EXFOLIATING & MOISTURIZING",
+                "name": "HAWAIIN RITUAL PEDICURE",
+                "description": "Milk with coconut sugar scrub and honey. Massage with hot stone and paraffin wax."
+              }
             },
             {
               "name": "ORGANIC MILK & HONEY PEDICURE (1 HR.+)",
-              "price": "53$"
+              "price": "53$",
+              "details": {
+                "category": "MOISTURIZING & SOFTENING",
+                "name": "ORGANIC MILK AND HONEY PEDICURE",
+                "description": "Moisturizing milk and honey with milk honey salt scrub. Hot stone for massage with paraffin wax."
+              }
             },
             {
               "name": "MALIBU CUCUMBER PEDICURE (1 HR.+)",
-              "price": "53$"
+              "price": "53$",
+              "details": {
+                "category": "REJUVENATING & SOFTENING",
+                "name": "MALIBU CUCUMBER PEDICURE",
+                "description": ""
+              }
             },
             {
               "name": "ROYAL VERBENA PEDICURE (45 MINS.+)",
-              "price": "48$"
+              "price": "48$",
+              "details": {
+                "category": "SOOTHING & RELAXING",
+                "name": "ROYAL VERBENA PEDICURE",
+                "description": "Sea salt and lavender aromatherapy citrus sugar scrub, and pure Organic honey with paraffin wax while massaging."
+              }
             },
             {
               "name": "HYDRATING HEEL PEDICURE (45 MINS.+)",
-              "price": "48$"
+              "price": "48$",
+              "details": {
+                "category": "HYDRATING & SOFTENING",
+                "name": "HYDRATING HEEL PEDICURE",
+                "description": "Sea salt with exfoliating walnut husks and pomegranate and softening serum."
+              }
             },
             {
               "name": "MANDARIN HONEY PEDICURE (45 MINS.)",
-              "price": "38$"
+              "price": "38$",
+              "details": {
+                "category": "REJUVENATING & SOFTENING",
+                "name": "MANDARIN HONEY PEDICURE",
+                "description": "Sea salt and sea salt citrus sugar scrub for dead skin and citrus clay mask."
+              }
             },
             {
               "name": "EUCALYPTUS MINT PEDICIURE (45 MINS.)",
-              "price": "38$"
+              "price": "38$",
+              "details": {
+                "category": "CALMING & SOOTHING",
+                "name": "EUCALYPTUS PEDICURE",
+                "description": "Sea salt with eucalyptus scrub with menthol mask and mineral clay. Cooling gel while massage."
+              }
             },
             {
               "name": "EXPRESS PEDICURE (30 MINS.)",
-              "price": "28$"
+              "price": "28$",
+              "details": {
+                "category": "FOR BUSY CUSTOMERS BUT WANT TO EXPERIENCE RELAXING PEDICURE",
+                "name": "EXPRESS PEDICURE",
+                "description": ""
+              }
             }
           ],
           "img": {
@@ -246,47 +301,102 @@
           "items": [
             {
               "name": "FRESH ALOE VERA PEDICURE (1 HR. & 30 MINS.)",
-              "price": "78$"
+              "price": "78$",
+              "details": {
+                "category": "HYDRATING & SOFTENING",
+                "name": "FRESH ALOE VERA PEDICURE",
+                "description": "Aloe vera pieces, aloe vera scrubs, and aloe vera mask with hot rock for muscle."
+              }
             },
             {
               "name": "ORGANIC CHARCOAL SPA DETOX PEDICURE (1 HR. & 15 MINS.)",
-              "price": "68$"
+              "price": "68$",
+              "details": {
+                "category": "DETOXIFYING",
+                "name": "ORGANIC CHARCOAL SPA DETOX PEDICURE",
+                "description": "Activated charcoal and charcoal mask with 30 hot stone massage."
+              }
             },
             {
               "name": "ORGANIC HERBAL ASIAN SPICES PEDICURE (1 HR. & 15 MINS.)",
-              "price": "63$"
+              "price": "63$",
+              "details": {
+                "category": "FOR STRESSED AND TIRED MUSCLE",
+                "name": "ORGANIC HERBAL ASIAN SPICE PEDICURE",
+                "description": "Jade powder with ginseng, lemongrass souffle mas, and paraffin wax."
+              }
             },
             {
               "name": "HAWAIIAN RITUAL PEDICURE (1 HR.+)",
-              "price": "58$"
+              "price": "58$",
+              "details": {
+                "category": "EXFOLIATING & MOISTURIZING",
+                "name": "HAWAIIN RITUAL PEDICURE",
+                "description": "Milk with coconut sugar scrub and honey. Massage with hot stone and paraffin wax."
+              }
             },
             {
               "name": "ORGANIC MILK & HONEY PEDICURE (1 HR.+)",
-              "price": "53$"
+              "price": "53$",
+              "details": {
+                "category": "MOISTURIZING & SOFTENING",
+                "name": "ORGANIC MILK AND HONEY PEDICURE",
+                "description": "Moisturizing milk and honey with milk honey salt scrub. Hot stone for massage with paraffin wax."
+              }
             },
             {
               "name": "MALIBU CUCUMBER PEDICURE (1 HR.+)",
-              "price": "53$"
+              "price": "53$",
+              "details": {
+                "category": "REJUVENATING & SOFTENING",
+                "name": "MALIBU CUCUMBER PEDICURE",
+                "description": ""
+              }
             },
             {
               "name": "ROYAL VERBENA PEDICURE (45 MINS.+)",
-              "price": "48$"
+              "price": "48$",
+              "details": {
+                "category": "SOOTHING & RELAXING",
+                "name": "ROYAL VERBENA PEDICURE",
+                "description": "Sea salt and lavender aromatherapy citrus sugar scrub, and pure Organic honey with paraffin wax while massaging."
+              }
             },
             {
               "name": "HYDRATING HEEL PEDICURE (45 MINS.+)",
-              "price": "48$"
+              "price": "48$",
+              "details": {
+                "category": "HYDRATING & SOFTENING",
+                "name": "HYDRATING HEEL PEDICURE",
+                "description": "Sea salt with exfoliating walnut husks and pomegranate and softening serum."
+              }
             },
             {
               "name": "MANDARIN HONEY PEDICURE (45 MINS.)",
-              "price": "38$"
+              "price": "38$",
+              "details": {
+                "category": "REJUVENATING & SOFTENING",
+                "name": "MANDARIN HONEY PEDICURE",
+                "description": "Sea salt and sea salt citrus sugar scrub for dead skin and citrus clay mask."
+              }
             },
             {
               "name": "EUCALYPTUS MINT PEDICIURE (45 MINS.)",
-              "price": "38$"
+              "price": "38$",
+              "details": {
+                "category": "CALMING & SOOTHING",
+                "name": "EUCALYPTUS PEDICURE",
+                "description": "Sea salt with eucalyptus scrub with menthol mask and mineral clay. Cooling gel while massage."
+              }
             },
             {
               "name": "EXPRESS PEDICURE (30 MINS.)",
-              "price": "28$"
+              "price": "28$",
+              "details": {
+                "category": "FOR BUSY CUSTOMERS BUT WANT TO EXPERIENCE RELAXING PEDICURE",
+                "name": "EXPRESS PEDICURE",
+                "description": ""
+              }
             }
           ],
           "img": {

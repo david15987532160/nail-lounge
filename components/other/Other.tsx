@@ -1,18 +1,40 @@
-import { PageHeader } from 'shared';
-import { IItem } from 'types';
 import { Divider } from 'antd';
+import { useState } from 'react';
+import { IDetail, IItem } from 'types';
+import { DetailModal, PageHeader } from 'shared';
 import staticData from 'static/assets/data.json';
 import styles from 'styles/components/Other.module.css';
 
 export const Other = (props: { lang?: 'en' | 'vi' }) => {
     const { lang = 'en' } = props;
+
     const { title, data } = staticData[lang!].OTHERS;
 
+    const [detail, setDetail] = useState<IDetail & { price: string }>({
+        category: '',
+        name: '',
+        description: '',
+        price: ''
+    });
+
+    const [visible, setVisible] = useState(false);
+
+    const hideModal = () => setVisible(false);
+
     const item = (data as IItem[]).map((ele, i) => {
-        const services = ele.items.map((service, idx) => {
-            return <li key={ idx + 1 } className="flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light">
-                <span>{ service.name }</span>
-                <span>{ service.price }</span>
+        const services = ele.items.map(({ name, price, details }, idx) => {
+            const showModal = () => {
+                setDetail({ ...details!, price });
+                setVisible(true);
+            };
+
+            return <li
+                key={ idx + 1 }
+                className="flex justify-between mb-4 sm:mb-8 sm:ml-6 text-deep-blue font-light"
+                onClick={ details ? showModal : undefined }
+            >
+                <span>{ name }</span>
+                <span>{ price }</span>
             </li>
         });
 
@@ -42,5 +64,11 @@ export const Other = (props: { lang?: 'en' | 'vi' }) => {
                 { item }
             </div>
         </div>
+
+        <DetailModal
+            data={ detail }
+            visible={ visible }
+            hideModal={ hideModal }
+        />
     </section>;
 };
