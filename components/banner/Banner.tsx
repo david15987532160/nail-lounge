@@ -11,14 +11,16 @@ export const Banner = (props: any) => {
         setTimeout(() => setShow(true), 500);
     }, []);
 
-    return <div
-        className={ `${ styles['banner-centered'] } ${ show ? 'fixed' : 'hidden' } w-full sm:w-auto px-3 sm:px-0` }
-    >
-        <CloseOutlined
-            className="absolute sm:top-2 right-4 text-base sm:text-xl text-white"
-            onClick={ close }
-        />
+    return <div className={ `${ styles.modal } ${ show ? 'block' : 'hidden' }` }>
+        <div
+            className={ `${ styles['banner-centered'] } w-full sm:w-auto px-3 sm:px-0` }
+        >
+            <CloseOutlined
+                className="absolute sm:top-2 right-4 text-base sm:text-xl text-white"
+                onClick={ close }
+            />
 
-        <img src="/images/banner.jpg" alt="App banner" className=""/>
+            <img src="/images/banner.jpg" alt="App banner" className=""/>
+        </div>
     </div>
 }
