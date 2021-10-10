@@ -16,7 +16,7 @@ export const About = (props: { lang?: 'en' | 'vi' }) => {
                     data-aos-once={ true }
                 >
                     <img
-                        src="/images/section-1/nail-lounge-logo.png"
+                        src="/images/section-1/nail-lounge-logo.webp"
                         alt="Nail Lounge logo"
                         width={ 424 }
                         height={ 130 }
