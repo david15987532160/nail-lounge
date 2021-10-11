@@ -20,7 +20,7 @@ export const Banner = (props: any) => {
                 onClick={ close }
             />
 
-            <img src="/images/banner.webp" alt="App banner" className=""/>
+            <img src="/images/banner-book-now.webp" alt="App banner" className=""/>
         </div>
     </div>
 }
