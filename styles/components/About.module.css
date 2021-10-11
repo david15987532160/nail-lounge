@@ -28,10 +28,10 @@
     }
 
     .bg-img-section-1 {
-        background: url("public/images/section-1/bg-dark.svg") no-repeat right,
-        url("public/images/section-1/bg-light.svg") no-repeat right,
+        background: url("public/images/section-1/bg-dark.svg") no-repeat 120% top,
+        url("public/images/section-1/bg-light.svg") no-repeat 200% top,
         url("public/images/section-1/top-left.svg") no-repeat  -10% -150px,
         url("public/images/section-1/nail-lounge-logo.png") no-repeat 20% 30px;
-        background-size: contain, contain, contain, 166px 51px;
+        background-size: contain, 78% 100%, contain, 166px 51px;
     }
 }

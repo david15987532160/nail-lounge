@@ -48,7 +48,7 @@ export const NavBar = (props: { lang?: 'en' | 'vi' }) => {
         </div>
 
         {/*Web*/ }
-        <div className="hidden sm:block sm:absolute sm:top-6 sm:right-72">
+        <div className="hidden sm:block sm:absolute sm:top-6 sm:right-40">
             <ul className="flex justify-center py-4 gap-6 sm:gap-16 text-deep-blue sm:text-white sm:bg-transparent">
                 { item }
             </ul>
