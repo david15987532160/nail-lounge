@@ -15,11 +15,10 @@
 }
 
 .bg-img-section-1 {
-    background: url("public/images/section-1/bg-dark.svg") no-repeat 97px 0,
-    url("public/images/section-1/bg-light.svg") no-repeat 115px 0,
+    background: url("public/images/section-1/top-right-bg.svg") no-repeat 70px 0,
     url("public/images/section-1/nail-lounge-logo.png") no-repeat 10% 15px,
     url("public/images/section-1/top-left.svg") no-repeat left -75px;
-    background-size: contain, contain, 111px 34px;
+    background-size: contain, 111px 34px, contain;
 }
 
 @media (min-width: 640px) {
@@ -28,10 +27,9 @@
     }
 
     .bg-img-section-1 {
-        background: url("public/images/section-1/bg-dark.svg") no-repeat 120% top,
-        url("public/images/section-1/bg-light.svg") no-repeat 200% top,
-        url("public/images/section-1/top-left.svg") no-repeat  -10% -150px,
+        background: url("public/images/section-1/top-right-bg.svg") no-repeat 120%,
+        url("public/images/section-1/top-left.svg") no-repeat -10% -150px,
         url("public/images/section-1/nail-lounge-logo.png") no-repeat 20% 30px;
-        background-size: contain, 78% 100%, contain, 166px 51px;
+        background-size: contain, contain, 166px 51px;
     }
 }
