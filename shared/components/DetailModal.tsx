@@ -31,7 +31,7 @@ export const DetailModal = (props: IModalProps) => {
     >
         <div className={ `${ styles['modal-img'] } mb-4` }/>
 
-        <div className="flex justify-between mb-4">
+        <div className="flex justify-between mb-6">
             <span className="text-lg font-bold">{ data?.name }</span>
             <span className="text-xl text-green-600">{ data?.price }</span>
         </div>

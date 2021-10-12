@@ -23,11 +23,16 @@
           "items": [
             {
               "name": "ACRYLIC FULL SET W/ FAKE TIPS & POLISH (45 MINS.)",
-              "price": "35$"
+              "price": "35$",
+              "details": {
+                "category": "",
+                "name": "ACRYLIC NAILS",
+                "description": "Acrylic refill 30"
+              }
             },
             {
               "name": "FRENCH SHELLAC GEL W/ MANICURE (45 MINS.)",
-              "price": "41$"
+              "price": "43$"
             },
             {
               "name": "SHELLAC GEL W/ MANICURE (45 MINS.)",
@@ -39,7 +44,12 @@
             },
             {
               "name": "SOLAR FULL SET (1 HR.+)",
-              "price": "47$"
+              "price": "50$",
+              "details": {
+                "category": "",
+                "name": "SOLAR FULL SET",
+                "description": "Fill 45"
+              }
             }
           ],
           "img": {
@@ -149,6 +159,60 @@
                 "name": "EXPRESS PEDICURE",
                 "description": ""
               }
+            },
+            {
+              "name": "ANTI-AGING & REJUVENATION PEDICURE",
+              "price": "81$",
+              "details": {
+                "category": "",
+                "name": "ANTI-AGING & REJUVENATION PEDICURE",
+                "description": "Pearl contains the following: Amino acids help building blocks of protein are essential for our bodies to function properly. They stimulate skin cells to produce collagen, promote cellular repair and hydration, and protect skin from pollution and outside elements. (Add on Gel $20)"
+              }
+            },
+            {
+              "name": "ORGANIC DETOX  RITUAL PEDICURE",
+              "price": "71$",
+              "details": {
+                "category": "",
+                "name": "ORGANIC DETOX  RITUAL PEDICURE",
+                "description": "Ginger can help reduce breakouts by cleansing pores and drawing toxins out of skin. It is helpful in decreasing inflammation from a recent breakout or healing scar. Ginger also has antifungal properties and is a natural way to treat athlete's foot. (Add on Gel $21)"
+              }
+            },
+            {
+              "name": "MILK AND HONEY RITUAL PEDICURE",
+              "price": "61$",
+              "details": {
+                "category": "",
+                "name": "MILK AND HONEY RITUAL PEDICURE",
+                "description": "Honey is anti-bacterial, anti-fungal, reduces inflammation, helps the skin to heal quickly, and contains many vitamins and minerals. (Add on Gel $22)"
+              }
+            },
+            {
+              "name": "ULTIMATE HYDRATING HEEL THERAPY",
+              "price": "51$",
+              "details": {
+                "category": "",
+                "name": "ULTIMATE HYDRATING HEEL THERAPY",
+                "description": "Pomegranate is rich in Anthocyanins and hydrolysable tannins, potent antioxidants, and anti-inflammatory compounds which have valuable anti-aging effects, creating healthy, youthful-looking skin. (Add on Gel $24)"
+              }
+            },
+            {
+              "name": "RELAX CUCUMBER MINT PEDICURE",
+              "price": "41$",
+              "details": {
+                "category": "",
+                "name": "RELAX CUCUMBER MINT PEDICURE",
+                "description": "Mint lightens your complexion, rejuvenates your healthy glow. It also protects your skin from free radical damage, a chief contributor to premature aging, helping you retain your youthful charm. (Add on Gel $25)"
+              }
+            },
+            {
+              "name": "HOUSE PEDITINI",
+              "price": "31$",
+              "details": {
+                "category": "",
+                "name": "HOUSE PEDITINI",
+                "description": "A green tea craze refreshing  lotion. It has a superb skin penetrating, moisturizing agents and electrolyte balancing properties. (Add on Gel $26)"
+              }
             }
           ],
           "img": {
@@ -189,7 +253,7 @@
             },
             {
               "name": "EYEBROWS WAXING (15 MINS.)",
-              "price": "10$"
+              "price": "15$"
             }
           ]
         },
@@ -198,7 +262,21 @@
           "items": [
             {
               "name": "DIPPING POWDER (1 HR.)",
-              "price": "41$"
+              "price": "42$",
+              "details": {
+                "category": "",
+                "name": "DIPPING POWDER",
+                "description": "Add tips $5"
+              }
+            },
+            {
+              "name": "FRENCH DIPPING POWER",
+              "price": "47$",
+              "details": {
+                "category": "",
+                "name": "FRENCH DIPPING POWER",
+                "description": "Add tips $5"
+              }
             },
             {
               "name": "(COLOR DIPPING POWDER FOR FRENCH ADD $5 FOR OMBRE ADD $15)",
@@ -271,11 +349,16 @@
           "items": [
             {
               "name": "ACRYLIC FULL SET W/ FAKE TIPS & POLISH (45 MINS.)",
-              "price": "35$"
+              "price": "35$",
+              "details": {
+                "category": "",
+                "name": "ACRYLIC NAILS",
+                "description": "Acrylic refill 30"
+              }
             },
             {
               "name": "FRENCH SHELLAC GEL W/ MANICURE (45 MINS.)",
-              "price": "41$"
+              "price": "43$"
             },
             {
               "name": "SHELLAC GEL W/ MANICURE (45 MINS.)",
@@ -287,7 +370,12 @@
             },
             {
               "name": "SOLAR FULL SET (1 HR.+)",
-              "price": "47$"
+              "price": "50$",
+              "details": {
+                "category": "",
+                "name": "SOLAR FULL SET",
+                "description": "Fill 45"
+              }
             }
           ],
           "img": {
@@ -397,6 +485,60 @@
                 "name": "EXPRESS PEDICURE",
                 "description": ""
               }
+            },
+            {
+              "name": "ANTI-AGING & REJUVENATION PEDICURE",
+              "price": "81$",
+              "details": {
+                "category": "",
+                "name": "ANTI-AGING & REJUVENATION PEDICURE",
+                "description": "Pearl contains the following: Amino acids help building blocks of protein are essential for our bodies to function properly. They stimulate skin cells to produce collagen, promote cellular repair and hydration, and protect skin from pollution and outside elements. (Add on Gel $20)"
+              }
+            },
+            {
+              "name": "ORGANIC DETOX  RITUAL PEDICURE",
+              "price": "71$",
+              "details": {
+                "category": "",
+                "name": "ORGANIC DETOX  RITUAL PEDICURE",
+                "description": "Ginger can help reduce breakouts by cleansing pores and drawing toxins out of skin. It is helpful in decreasing inflammation from a recent breakout or healing scar. Ginger also has antifungal properties and is a natural way to treat athlete's foot. (Add on Gel $21)"
+              }
+            },
+            {
+              "name": "MILK AND HONEY RITUAL PEDICURE",
+              "price": "61$",
+              "details": {
+                "category": "",
+                "name": "MILK AND HONEY RITUAL PEDICURE",
+                "description": "Honey is anti-bacterial, anti-fungal, reduces inflammation, helps the skin to heal quickly, and contains many vitamins and minerals. (Add on Gel $22)"
+              }
+            },
+            {
+              "name": "ULTIMATE HYDRATING HEEL THERAPY",
+              "price": "51$",
+              "details": {
+                "category": "",
+                "name": "ULTIMATE HYDRATING HEEL THERAPY",
+                "description": "Pomegranate is rich in Anthocyanins and hydrolysable tannins, potent antioxidants, and anti-inflammatory compounds which have valuable anti-aging effects, creating healthy, youthful-looking skin. (Add on Gel $24)"
+              }
+            },
+            {
+              "name": "RELAX CUCUMBER MINT PEDICURE",
+              "price": "41$",
+              "details": {
+                "category": "",
+                "name": "RELAX CUCUMBER MINT PEDICURE",
+                "description": "Mint lightens your complexion, rejuvenates your healthy glow. It also protects your skin from free radical damage, a chief contributor to premature aging, helping you retain your youthful charm. (Add on Gel $25)"
+              }
+            },
+            {
+              "name": "HOUSE PEDITINI",
+              "price": "31$",
+              "details": {
+                "category": "",
+                "name": "HOUSE PEDITINI",
+                "description": "A green tea craze refreshing  lotion. It has a superb skin penetrating, moisturizing agents and electrolyte balancing properties. (Add on Gel $26)"
+              }
             }
           ],
           "img": {
@@ -437,7 +579,7 @@
             },
             {
               "name": "EYEBROWS WAXING (15 MINS.)",
-              "price": "10$"
+              "price": "15$"
             }
           ]
         },
@@ -446,7 +588,21 @@
           "items": [
             {
               "name": "DIPPING POWDER (1 HR.)",
-              "price": "41$"
+              "price": "42$",
+              "details": {
+                "category": "",
+                "name": "DIPPING POWDER",
+                "description": "Add tips $5"
+              }
+            },
+            {
+              "name": "FRENCH DIPPING POWER",
+              "price": "47$",
+              "details": {
+                "category": "",
+                "name": "FRENCH DIPPING POWER",
+                "description": "Add tips $5"
+              }
             },
             {
               "name": "(COLOR DIPPING POWDER FOR FRENCH ADD $5 FOR OMBRE ADD $15)",
