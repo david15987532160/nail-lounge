@@ -1,0 +1,17 @@
+.icon-size {
+    font-size: 24px;
+}
+
+.floating-booking-btn {
+    position: fixed;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+    z-index: 10;
+}
+
+@media (min-width: 640px) {
+    .icon-size {
+        font-size: 28px;
+    }
+}

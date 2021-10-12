@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { About, Banner, Combo, FeatureService, Footer, NavBar, Other } from 'components';
 import { Dashed } from 'shared';
 import Aos from 'aos';
+import { Booking } from '../../components/booking';
 
 const Landing = (props: { lang?: 'en' | 'vi' }) => {
     const { lang = 'en' } = props;
@@ -11,6 +12,9 @@ const Landing = (props: { lang?: 'en' | 'vi' }) => {
     });
 
     return <>
+        {/* Banner */ }
+        <Banner/>
+
         {/* Nav bar section */ }
         <NavBar lang={ lang }/>
 
@@ -32,8 +36,8 @@ const Landing = (props: { lang?: 'en' | 'vi' }) => {
         {/* Footer */ }
         <Footer lang={ lang }/>
 
-        {/* Banner */ }
-        <Banner/>
+        {/* Booking */ }
+        <Booking/>
     </>
 }
 

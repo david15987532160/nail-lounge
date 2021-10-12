@@ -11,7 +11,7 @@ export const Banner = (props: any) => {
         setTimeout(() => setShow(true), 500);
     }, []);
 
-    return <div className={ `${ styles.modal } ${ show ? 'block' : 'hidden' }` }>
+    return <div className={ `${ styles.modal } ${ show ? 'block' : 'hidden' } z-50` }>
         <div
             className={ `${ styles['banner-centered'] } w-full sm:w-auto px-3 sm:px-0` }
         >

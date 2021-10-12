@@ -1,3 +1,4 @@
+import { BOOKING } from 'utils';
 import staticData from 'static/assets/data.json';
 import styles from 'styles/components/About.module.css';
 
@@ -36,14 +37,18 @@ export const About = (props: { lang?: 'en' | 'vi' }) => {
                         </li>
                     </ul>
 
-                    <a href=""
+                    <a href={ BOOKING }
+                       target="_blank"
+                       rel="noreferrer"
                        className="hidden sm:inline py-3 px-10 sm:py-5 sm:px-14 text-lg text-white border rounded-full bg-deep-blue"
                     >
                         { buttonText }
                     </a>
                 </div>
 
-                <a href=""
+                <a href={ BOOKING }
+                   target="_blank"
+                   rel="noreferrer"
                    className="sm:hidden py-3 px-10 sm:py-5 sm:px-14 text-lg text-white border rounded-full bg-deep-blue"
                    data-aos="zoom-out"
                    data-aos-once={ true }
