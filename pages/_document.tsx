@@ -7,7 +7,7 @@ class MyDocument extends Document {
     openGraph = {
         // url: 'https://nailloungeandspa.net',
         url: 'https://nail-lounge-taupe.vercel.app',
-        image: '/images/nail-lounge-logo.png',
+        image: '/images/section-1/nail-lounge-logo.png',
         site_name: 'nailLoungeAndSpa',
         title: 'Nail Lounge and Spa',
         description: 'Nail Lounge and Spa description',
