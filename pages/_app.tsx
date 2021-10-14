@@ -6,16 +6,18 @@ function MyApp({ Component, pageProps }: AppProps) {
   return <>
     <DefaultSeo
         openGraph={ {
-          type: 'website',
-          locale: 'en',
-          url: 'https://nailloungeandspa.net',
-          site_name: 'NailLoungeAndSpa',
-          images: [
-            {
-                url: '/images/nail-lounge-logo.svg',
-                secureUrl: '/images/nail-lounge-logo.svg',
-                type: 'image/jpeg',
-                width: 424,
+            title: 'Nail Lounge and Spa',
+            description: 'Nail Lounge and Spa description',
+            type: 'website',
+            locale: 'en',
+            url: 'https://nailloungeandspa.net',
+            site_name: 'NailLoungeAndSpa',
+            images: [
+                {
+                    url: 'https://nailloungeandspa.net/images/nail-lounge-logo.svg',
+                    secureUrl: 'https://nailloungeandspa.net/images/nail-lounge-logo.svg',
+                    type: 'image/jpeg',
+                    width: 424,
                 height: 130
             }
           ],
