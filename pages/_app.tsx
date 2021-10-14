@@ -12,7 +12,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           site_name: 'NailLoungeAndSpa',
           images: [
             {
-              url: 'http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg'
+                url: '/images/nail-lounge-logo.svg',
+                secureUrl: '/images/nail-lounge-logo.svg',
+                type: 'image/jpeg',
+                width: 424,
+                height: 130
             }
           ],
         } }
