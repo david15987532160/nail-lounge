@@ -5,6 +5,7 @@ module.exports = {
     domains: [],
   },
   i18n: {
+    localeDetection: false,
     /**
      * Provide the locales you want to support in your application
      */
