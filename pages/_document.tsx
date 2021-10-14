@@ -33,8 +33,6 @@ class MyDocument extends Document {
                     <meta property="og:title" content={ this.openGraph.title }/>
                     <meta property="og:description" content={ this.openGraph.description }/>
                     <meta property="og:image" content={ `${ this.openGraph.url }${ this.openGraph.image }` }/>
-                    <meta property="og:image:width" content={ '640px' }/>
-                    <meta property="og:image:height" content={ '200px' }/>
                     <meta property="og:locale" content={ this.openGraph.locale }/>
                 </Head>
 
