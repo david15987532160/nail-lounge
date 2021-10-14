@@ -5,8 +5,7 @@ class MyDocument extends Document {
     title = 'Nail Lounge and Spa';
 
     openGraph = {
-        url: 'https://nailloungeandspa.net',
-        // url: 'https://nail-lounge-taupe.vercel.app',
+        url: process.env.URL,
         image: {
             url: '/images/nail-lounge-logo.png',
             secureUrl: '/images/nail-lounge-logo.png',
