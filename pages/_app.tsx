@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }: AppProps) {
             site_name: 'NailLoungeAndSpa',
             images: [
                 {
-                    url: 'https://nailloungeandspa.net/images/nail-lounge-logo.svg',
-                    secureUrl: 'https://nailloungeandspa.net/images/nail-lounge-logo.svg',
+                    url: 'https://nail-lounge-taupe.vercel.app/images/nail-lounge-logo.svg',
+                    secureUrl: 'https://nail-lounge-taupe.vercel.app/images/nail-lounge-logo.svg',
                     type: 'image/jpeg',
                     width: 424,
                 height: 130
