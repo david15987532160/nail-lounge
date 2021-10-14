@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { About, Banner, Combo, FeatureService, Footer, NavBar, Other } from 'components';
 import { Dashed } from 'shared';
 import Aos from 'aos';
-import { Booking } from '../../components/booking';
+import { Booking } from 'components/booking';
 
 const Landing = (props: { lang?: 'en' | 'vi' }) => {
     const { lang = 'en' } = props;

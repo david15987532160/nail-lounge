@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
+  env: {
+    URL: 'https://nailloungeandspa.net',
+  },
   reactStrictMode: true,
   images: {
     domains: [],
