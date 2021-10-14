@@ -10,6 +10,10 @@ const Home: NextPage = () => {
 
     return (
         <div className="overflow-x-hidden">
+            <Head>
+                <title>{ title }</title>
+            </Head>
+
             <Landing lang={ locale as 'en' | 'vi' }/>
         </div>
     );
