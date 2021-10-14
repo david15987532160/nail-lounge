@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <div className="overflow-x-hidden">
             <Head>
                 <title>{ title }</title>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="/images/nail-lounge-logo.svg"/>
             </Head>
 
             <Landing lang={ locale as 'en' | 'vi' }/>
